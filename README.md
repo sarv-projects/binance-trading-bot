@@ -2,11 +2,18 @@
 
 A robust command-line trading bot developed for the Primetrade.ai Technical Assessment.
 
+
+## Implementation Note 
+**Regarding the Binance Futures Requirement:**
+During development, the Binance Futures Testnet portal was redirecting to the new "Mock Trading" interface, which currently limits API key generation. To ensure the submission of a fully functional, verifiable, and robust application, I implemented the bot using the **Binance Spot Testnet**. 
+
+The core logic (Client instantiation, Order construction, Error handling) remains architecturally identical to a Futures implementation.
+
 ## Features
 - **Smart Execution**: Supports MARKET, LIMIT, and STOP_LOSS orders.
 - **Safety First**: Environment variable management for API keys.
-- **Logging**: Comprehensive transaction logging to `trading_bot.log`.
-- **Error Handling**: Graceful handling of network and API exceptions.
+- **Logging**: Comprehensive transaction logging to \`trading_bot.log\`.
+
 
 ## Tech Stack
 - Python
