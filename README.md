@@ -1,4 +1,4 @@
-# Python Crypto Trading Bot (Testnet)
+# Python Crypto Trading Bot 
 
 A robust command-line trading bot developed for the Primetrade.ai Technical Assessment.
 
@@ -9,7 +9,7 @@ A robust command-line trading bot developed for the Primetrade.ai Technical Asse
 - **Error Handling**: Graceful handling of network and API exceptions.
 
 ## Tech Stack
-- Python 3.x
+- Python
 - python-binance
 - Colorama (for CLI interface)
 
