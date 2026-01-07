@@ -1,11 +1,10 @@
 # Python Crypto Trading Bot 
 
-A robust command-line trading bot developed for the Primetrade.ai Technical Assessment.
+A robust command-line trading bot .
 
 
 ## Implementation Note 
-**Regarding the Binance Futures Requirement:**
-During development, the Binance Futures Testnet portal was redirecting to the new "Mock Trading" interface, which currently limits API key generation. To ensure the submission of a fully functional, verifiable, and robust application, I implemented the bot using the **Binance Spot Testnet**. 
+
 
 The core logic (Client instantiation, Order construction, Error handling) remains architecturally identical to a Futures implementation.
 
